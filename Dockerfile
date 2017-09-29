@@ -1,4 +1,4 @@
 FROM centos:latest
 MAINTAINER Charlie
-ADD setup.sh /root
+ADD test.py /root
 RUN python /root/test.py
